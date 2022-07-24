@@ -8,17 +8,16 @@ main{
     align-items: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    
     color: hsl(228, 12%, 48%);
 }
-article{
+.container{
     display:flex;
     margin-top: 60PX;
     max-width: 650px;
     height: fit-content;
     border-radius: 10px;
 }
-section{
+.image,.txt {
     width: 50%;
     margin: 0;
     background-color: white;
@@ -29,6 +28,9 @@ section{
     border-top-left-radius: 0;
 }
 .image2{
+    width: 50%;
+    margin: 0;
+    background-color: white;
     display: none;
 }
 .img1{
@@ -76,6 +78,7 @@ button{
     }
     .image2{
         display: block;
+        padding-bottom: ;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -90,17 +93,17 @@ button{
         border-radius: 0;
         display: none;
     }
-    article{
+    .container{
         margin-top: 0;
         display:inline;
         overflow: none;
         
     }
-    .text{
+    .txt{
         margin-top: 0;
-        padding-top: 10px;
+        padding-top: 20px;
     }
-    section{
+    .image, .image2, .txt{
         width: 100%;
         height: fit-content;
         margin: 0;
