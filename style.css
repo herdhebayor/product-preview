@@ -1,8 +1,9 @@
 body{
     background-color:  hsl(30, 38%, 92%);
 }
-article{
+main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -10,9 +11,9 @@ article{
     
     color: hsl(228, 12%, 48%);
 }
-main{
+article{
     display:flex;
-    margin-top: 50px;
+    margin-top: 60PX;
     max-width: 650px;
     height: fit-content;
     border-radius: 10px;
@@ -70,7 +71,7 @@ button{
 }
 
 @media screen and (max-width: 600px){
-    article{
+    main{
         margin: 20px;
     }
     .image2{
@@ -89,7 +90,7 @@ button{
         border-radius: 0;
         display: none;
     }
-    main{
+    article{
         margin-top: 0;
         display:inline;
         overflow: none;
